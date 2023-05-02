@@ -1,4 +1,9 @@
 // namespace mis_221_pa_5_fgarmstrong
+
+
+// these suck I studied more for final exam over fixing these reports
+
+
 // {
 // public class Report
 //     {

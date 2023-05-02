@@ -91,7 +91,7 @@ namespace mis_221_pa_5_fgarmstrong
 
     }
 
-      private void SaveBooking()  
+      private void SaveBooking()  // this writes new bookings to the transactions file
     {
         StreamWriter outFile = new StreamWriter("transactions.txt");
 
@@ -106,19 +106,19 @@ namespace mis_221_pa_5_fgarmstrong
     }
 
 
-    public void CompleteSession()
+    public void CompleteSession()  // this changes session status to booked
     {
         Booking editedBooking = new Booking();
         editedBooking.SetBookingStatus("Completed");
     }
 
-    public void CancelSession()
+    public void CancelSession() // this changes session status to canceled
     {
         Booking editedBooking = new Booking();
         editedBooking.SetBookingStatus("Open");
     }
 
-    public void NoShowSession()
+    public void NoShowSession()  // this changes session status to no show
     {
         Booking editedBooking = new Booking();
         editedBooking.SetBookingStatus("No Show");

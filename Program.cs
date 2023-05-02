@@ -45,7 +45,6 @@ static int GetUserChoiceSignINMenu() {// PA 5 sign in  menu---------------------
 
 static void DisplaySignInMenu() { // this is PA 5 sign in  Menu Display 
 
-    //System.Console.WriteLine("Enter 1 to Manage Trainer Data\nEnter 2 to Manage Listing Data\nEnter 3 to Manage Customer Booking Data\nEnter 4 to Run Reports\nEnter 5 to Exit the System");
     Console.WriteLine("\n============================================");
     Console.WriteLine("|            WELCOME TO TITAN UP  GYM       |");
     Console.WriteLine("|___________________________________________|");
@@ -119,7 +118,6 @@ static int GetUserChoiceStartMenu() {// PA 5 start menu-------------------------
 
 static void DisplayStartMenu() { // this is PA 5 Initial Menu Display 
 
-    //System.Console.WriteLine("Enter 1 to Manage Trainer Data\nEnter 2 to Manage Listing Data\nEnter 3 to Manage Customer Booking Data\nEnter 4 to Run Reports\nEnter 5 to Exit the System");
     Console.WriteLine("\n============================================");
     Console.WriteLine("|            WELCOME TO TITAN UP  GYM       |");
     Console.WriteLine("|___________________________________________|");
@@ -202,7 +200,6 @@ static int TrainerMenuChoice() {
 
 static void DisplayTrainerMenu() {  
 
-    //System.Console.WriteLine("Enter 1 to add trainer data\nEnter 2 to edit trainer Data\nEnter 3 to delete trainer\nEnter 4 to return to main menu");
     Console.WriteLine("\n*******************************************");
     Console.WriteLine("*            MANAGE TRAINER DATA            *");
     Console.WriteLine("*********************************************");
@@ -266,7 +263,6 @@ static int GetUserChoiceListingMenu() {
 
 static void DisplayListingMenu() { // this is PA 5 listing Menu Display 
 
-    //System.Console.WriteLine("Enter 1 to add listing data\nEnter 2 to edit lisitng Data\nEnter 3 to delete listing data\nEnter 4 to Return to main menu");
     Console.WriteLine("\n*******************************************");
     Console.WriteLine("*      MANAGE TRAINING SESSION LISTING      *");
     Console.WriteLine("*********************************************");
@@ -335,7 +331,6 @@ static int GetUserChoiceBookingMenu() {
 
 static void DisplayBookingMenu() {  
 
-   // System.Console.WriteLine("Enter 1 to veiw avalible sessions\nEnter 2 to book a session\nEnter 3 to edit a previous booking\nEnter 4 to return to the main");
     Console.WriteLine("\n*******************************************");
     Console.WriteLine("*             MANAGE BOOKINGS               *");
     Console.WriteLine("*********************************************");
@@ -400,7 +395,6 @@ static int GetUserChoiceEditBookingMenu() {
 
 static void DisplayEditBookingMenu() {  
 
-   //System.Console.WriteLine("Enter 1 if you completed a session\nEnter 2 if you want to cancel a session\nEnter 3 if you are going to no show your session\nEnter 4 to return to the main menu");
     Console.WriteLine("\n*******************************************");
     Console.WriteLine("*           EDIT SESSION BOOKING            *");
     Console.WriteLine("*********************************************");
@@ -466,7 +460,6 @@ static int GetUserChoiceReportMenu() {
 
 static void DisplayReportsMenu() {  
 
-   // System.Console.WriteLine("Enter 1 to veiw Individual Customer Sessions\nEnter 2 to view historical customer sessons sorted by customer, then by date\nEnter 3 to view historical revenue report\nEnter 4 to return to main menu");
     Console.WriteLine("\n********************************************");
     Console.WriteLine("*                 RUN REPORTS                *");
     Console.WriteLine("**********************************************");
@@ -492,7 +485,7 @@ static bool ValidChoiceReportsMenu(string userChoiceReportsMenu) {
 }
 
 
-static void RouteReports(int reportsMenuChoice, Booking[] listOfBookings) 
+static void RouteReports(int reportsMenuChoice, Booking[] listOfBookings) // since my reports were so messed up i just commented these out as well to allow the app to run
 { //this is PA 5 start menu
     // Report runReport = new Report(listOfBookings);
     // if(reportsMenuChoice==1) {

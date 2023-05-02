@@ -25,7 +25,7 @@ namespace mis_221_pa_5_fgarmstrong
             }
         }
 
-        public void AddUserIdentity()
+        public void AddUserIdentity() // this method adds a usrnm and pswrd
         {
             Identity newIdentity = new Identity();
             System.Console.WriteLine("Please Create your username:");
@@ -43,7 +43,7 @@ namespace mis_221_pa_5_fgarmstrong
             SaveID();
         }
 
-       public void SignInIdentity()
+       public void SignInIdentity()  // this is to sign into previously existing usrnme and pswrd
         {
             System.Console.WriteLine("Please enter your username:");
             string username = Console.ReadLine();
@@ -52,7 +52,7 @@ namespace mis_221_pa_5_fgarmstrong
             string password = Console.ReadLine();
 
             bool found = false;
-            foreach (Identity identity in listOfIdentity)
+            foreach (Identity identity in listOfIdentity) // honestly not super sure what is going on here found this on stackoverflow/ foreeach thing is pretty cool though
             {
                 if (identity != null && identity.GetUserName() == username && identity.GetPassWord() == password)
                 {
@@ -73,7 +73,7 @@ namespace mis_221_pa_5_fgarmstrong
         }
 
 
-        private void SaveID()  // this method is to save trainers to the file
+        private void SaveID()  // this method is to save id to the file
         {
             StreamWriter outFile = new StreamWriter("identity.txt"); 
 
