@@ -1,0 +1,15 @@
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/bin/Debug/net6.0/mis-221-pa-5-fgarmstrong
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/bin/Debug/net6.0/mis-221-pa-5-fgarmstrong.deps.json
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/bin/Debug/net6.0/mis-221-pa-5-fgarmstrong.runtimeconfig.json
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/bin/Debug/net6.0/mis-221-pa-5-fgarmstrong.dll
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/bin/Debug/net6.0/mis-221-pa-5-fgarmstrong.pdb
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.csproj.AssemblyReference.cache
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.AssemblyInfoInputs.cache
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.AssemblyInfo.cs
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.csproj.CoreCompileInputs.cache
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.dll
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/refint/mis-221-pa-5-fgarmstrong.dll
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.pdb
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/mis-221-pa-5-fgarmstrong.genruntimeconfig.cache
+/Users/gilarmstrong/Documents/MIS221/mis-221-pa-5-fgarmstrong/obj/Debug/net6.0/ref/mis-221-pa-5-fgarmstrong.dll
